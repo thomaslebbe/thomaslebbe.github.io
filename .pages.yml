@@ -8,6 +8,14 @@ content:
     type: file
     path: index.md
     fields:
+      - name: layout
+        type: string
+        hidden: true
+        default: home
+      - name: permalink
+        type: string
+        hidden: true
+        default: /
       - name: body
         label: Content
         type: rich-text
@@ -17,6 +25,25 @@ content:
     type: file
     path: research.md
     fields:
+      - name: layout
+        type: string
+        hidden: true
+        default: research
+      - name: permalink
+        type: string
+        hidden: true
+        default: /research.html
+      - name: title
+        type: string
+        hidden: true
+        default: Research
+      - name: description
+        type: string
+        hidden: true
+        default: >-
+          Research by Thomas Lebbe: working papers on the energy transition,
+          elasticity of substitution in energy, climate and sovereign bond
+          markets, and green fiscal policy.
       - name: body
         label: Research statement
         type: rich-text
@@ -73,6 +100,24 @@ content:
     type: file
     path: outreach.md
     fields:
+      - name: layout
+        type: string
+        hidden: true
+        default: page
+      - name: permalink
+        type: string
+        hidden: true
+        default: /outreach.html
+      - name: title
+        type: string
+        hidden: true
+        default: Outreach & Engagement
+      - name: description
+        type: string
+        hidden: true
+        default: >-
+          Outreach and engagement by Thomas Lebbe: economics podcast, faculty
+          board service, and volunteering.
       - name: body
         label: Content
         type: rich-text

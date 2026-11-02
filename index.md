@@ -1,7 +1,6 @@
 ---
----
----
-
+layout: home
+permalink: /
 ---
 
 I am a macroeconomist fascinated by one question: *how can economies decarbonize without undermining their public finances?* I pursue this question as a PhD researcher at Ghent University, where I held a FWO doctoral fellowship (2021–2025); my PhD defence is expected in 2027. Before the PhD I studied economics at Ghent University and UCLouvain.
