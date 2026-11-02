@@ -1,0 +1,73 @@
+# Papers shown on the Research page.
+# section: jmp | published | working | progress
+# Within a section, papers appear in file order — keep newest first.
+papers:
+  - title: "The Energy Transition in Long-Run Macroeconomics"
+    authors: ""
+    year: "2026"
+    section: jmp
+    abstract: >-
+      How do fossil fuel prices interact with clean energy innovation to
+      drive the energy transition? I build a neoclassical growth model of
+      the United States in which clean technology grows through knowledge
+      spillovers from installed clean capital, supported by public
+      infrastructure. The model determines the whole set of fossil fuel
+      prices and clean innovation rates that form a knife edge. On this
+      knife edge the clean energy share is stable. Away from it, the model
+      shows how the system moves toward a new equilibrium. This explains
+      both the long plateaus and the discrete shifts in the observed clean
+      energy share.
+    links:
+      - label: "Draft available on request"
+        url: ""
+
+  - title: >-
+      On the Elasticity of Substitution between Clean and Dirty Energy:
+      Reconciling Empirical Estimates and Their Implications for Model
+      Calibration
+    authors: "with Freddy Heylen"
+    year: "UGent FEB Working Paper 26/1140"
+    section: working
+    abstract: >-
+      Estimates of the elasticity of substitution between clean and dirty
+      energy range from below 0.5 to as high as 10. We develop an
+      encompassing specification that nests the low and high estimates and
+      apply it to 13 OECD countries over 1980–2020. The elasticity stays
+      well below one when energy-related technology and infrastructure are
+      held constant. It rises to between 2 and 3 when technology is allowed
+      to respond to prices. Carbon taxes alone are therefore insufficient;
+      investment in clean technology and infrastructure is essential.
+    links:
+      - label: "Full text (UGent FEB Working Paper 26/1140)"
+        url: "https://wps-feb.ugent.be/Papers/wp_26_1140.pdf"
+      - label: "Replication package"
+        url: "https://github.com/thomaslebbe/elasticity-substitution-energy-replication"
+
+  - title: "Heat Distributed Unequally in the Sovereign Bond Market"
+    authors: "with Azzam Santosa"
+    year: "2026"
+    section: working
+    abstract: >-
+      We study how heat shocks are priced in sovereign bond markets. Heat
+      shocks differ from disaster risk: their expected losses are small but
+      their variance is large. We first build a sovereign default model,
+      calibrated to the Dominican Republic. In the model, this uncertainty
+      alone widens bond spreads and raises default probabilities. We then
+      validate these predictions in a panel study of 76 countries
+      (1995–2017). The effects are strongest in emerging markets with large
+      agricultural sectors.
+    links:
+      - label: "Full text (PDF)"
+        url: "/papers/Lebbe_Santosa_2026_HeatSovereignBonds.pdf"
+
+  - title: "Green Fiscal Policy in a High-Debt, Ageing Society"
+    authors: ""
+    year: "working title"
+    section: progress
+    abstract: >-
+      How should governments finance the energy transition when public debt
+      is high and the population is ageing? I build an overlapping
+      generations model with households that differ in income and energy
+      demand. The paper compares financing options and traces who bears the
+      burden across generations.
+    links: []

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} · {% endif %}Thomas Lebbe · Economist</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+<link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+</head>
+<body>
+
+<nav>
+  <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+  <a href="{{ '/research.html' | relative_url }}" {% if page.url == '/research.html' %}class="active"{% endif %}>Research</a>
+  <a href="{{ '/outreach.html' | relative_url }}" {% if page.url == '/outreach.html' %}class="active"{% endif %}>Outreach</a>
+  <a href="{{ '/cv.html' | relative_url }}" {% if page.url == '/cv.html' %}class="active"{% endif %}>Curriculum Vitae</a>
+</nav>
+
+{{ content }}
+
+<footer>
+  Last updated {{ site.time | date: "%B %Y" }}.
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+title: Thomas Lebbe · Economist
+description: >-
+  Thomas Lebbe, PhD researcher in macroeconomics at Ghent University.
+  Climate policy, energy transition, fiscal sustainability.
+url: "https://thomaslebbe.github.io"
+
+markdown: kramdown
+
+exclude:
+  - README.md
+  - .pages.yml

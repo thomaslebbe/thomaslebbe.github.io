@@ -1,0 +1,78 @@
+media:
+  input: images
+  output: /images
+
+content:
+  - name: homepage
+    label: Homepage (bio & interests)
+    type: file
+    path: index.md
+    fields:
+      - name: body
+        label: Content
+        type: rich-text
+
+  - name: research
+    label: Research statement
+    type: file
+    path: research.md
+    fields:
+      - name: body
+        label: Research statement
+        type: rich-text
+
+  - name: papers
+    label: Papers
+    type: file
+    path: _data/papers.yml
+    fields:
+      - name: papers
+        label: Papers
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Title
+            type: string
+          - name: authors
+            label: Co-authors (e.g. "with Freddy Heylen"; leave empty if solo)
+            type: string
+          - name: year
+            label: Year / working-paper series
+            type: string
+          - name: section
+            label: Section
+            type: select
+            options:
+              values:
+                - value: jmp
+                  label: Job Market Paper
+                - value: published
+                  label: Publications
+                - value: working
+                  label: Working Papers
+                - value: progress
+                  label: Work in Progress
+          - name: abstract
+            label: Abstract
+            type: text
+          - name: links
+            label: Links
+            type: object
+            list: true
+            fields:
+              - name: label
+                label: Link text
+                type: string
+              - name: url
+                label: URL (leave empty for plain text like "Draft on request")
+                type: string
+
+  - name: outreach
+    label: Outreach & Engagement
+    type: file
+    path: outreach.md
+    fields:
+      - name: body
+        label: Content
+        type: rich-text

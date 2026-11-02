@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<header>
+  <h1>Research</h1>
+</header>
+
+<section>
+{{ content }}
+</section>
+
+{% assign papers = site.data.papers.papers %}
+
+{% assign jmp = papers | where: "section", "jmp" %}
+{% if jmp.size > 0 %}
+<section>
+  <h2>Job Market Paper</h2>
+  {% for p in jmp %}{% include paper.html paper=p open=true %}{% endfor %}
+</section>
+{% endif %}
+
+{% assign published = papers | where: "section", "published" %}
+{% if published.size > 0 %}
+<section>
+  <h2>Publications</h2>
+  {% for p in published %}{% include paper.html paper=p %}{% endfor %}
+</section>
+{% endif %}
+
+{% assign working = papers | where: "section", "working" %}
+{% if working.size > 0 %}
+<section>
+  <h2>Working Papers</h2>
+  {% for p in working %}{% include paper.html paper=p %}{% endfor %}
+</section>
+{% endif %}
+
+{% assign progress = papers | where: "section", "progress" %}
+{% if progress.size > 0 %}
+<section>
+  <h2>Work in Progress</h2>
+  {% for p in progress %}{% include paper.html paper=p %}{% endfor %}
+</section>
+{% endif %}
