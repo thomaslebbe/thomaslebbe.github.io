@@ -6,6 +6,41 @@ url: "https://thomaslebbe.github.io"
 
 markdown: kramdown
 
+# Layouts/permalinks assigned here by path so pages render correctly even if
+# a Pages CMS save strips the per-file front matter.
+defaults:
+  - scope:
+      path: "index.md"
+    values:
+      layout: home
+      permalink: /
+  - scope:
+      path: "research.md"
+    values:
+      layout: research
+      title: Research
+      permalink: /research.html
+      description: >-
+        Research by Thomas Lebbe: working papers on the energy transition,
+        elasticity of substitution in energy, climate and sovereign bond
+        markets, and green fiscal policy.
+  - scope:
+      path: "outreach.md"
+    values:
+      layout: page
+      title: Outreach & Engagement
+      permalink: /outreach.html
+      description: >-
+        Outreach and engagement by Thomas Lebbe: economics podcast, faculty
+        board service, and volunteering.
+  - scope:
+      path: "cv.md"
+    values:
+      layout: page
+      title: Curriculum Vitae
+      permalink: /cv.html
+      description: Curriculum vitae of Thomas Lebbe, PhD researcher in macroeconomics.
+
 exclude:
   - README.md
   - .pages.yml
