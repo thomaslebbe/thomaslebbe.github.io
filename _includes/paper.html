@@ -5,7 +5,7 @@
       <span class="title">{{ p.title }}</span>
       <span class="meta">{% if p.authors != "" %}{{ p.authors }} · {% endif %}{{ p.year }}</span>
     </summary>
-    <div class="desc">{{ p.abstract }}</div>
+    <div class="desc">{{ p.abstract | markdownify }}</div>
   </details>
   {% if p.links and p.links.size > 0 %}
   <div class="links">

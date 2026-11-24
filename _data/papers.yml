@@ -8,26 +8,21 @@ papers:
     authors: ""
     year: "2026"
     section: jmp
-    abstract: >-
-      Clean energy shares in OECD countries follow a growth pattern that is
-      quite peculiar. Periods of growth in clean energy are followed by
-      periods of stagnation, and seemingly out of nowhere the clean share
-      starts increasing. Existing knowledge points to prices and innovation
-      as key drivers, with some putting more emphasis on one specific
-      driver. This paper integrates both drivers to form a theoretical
-      model that can explain the share of clean energy. The underlying
-      model is a knife-edge model of unbalanced growth. The knife-edge is
-      the organising result of the paper: it is what lets a single model
-      produce both year-long plateaus and discrete shifts in the clean
-      energy share. My main contribution is an explicit, tractable
-      theoretical framework for modelling technology in the clean energy
-      sector, suitable for long-run macroeconomic models. The results of
-      the paper are suitable for policymakers, as interactions between
-      carbon prices and government investments indicate a staged approach.
-      Consistent with Lebbe and Heylen (2026), the results indicate that
-      carbon taxes alone have limited power in the early stages of the
-      energy transition, while technology and public infrastructure steer
-      the transition, even when dirty and clean energy act as complements.
+    abstract: |-
+      Clean energy shares in OECD countries follow a peculiar growth
+      pattern. Periods of growth are followed by periods of stagnation.
+      Seemingly out of nowhere, the clean share starts increasing. This
+      paper integrates the two key drivers of the clean energy transition,
+      prices and innovation, into a knife-edge model of unbalanced growth.
+      The knife-edge lets a single model produce both the year-long
+      plateaus and the discrete shifts in the clean energy share.
+
+      My main contribution is an explicit, tractable theoretical framework
+      for modelling technology in the clean energy sector. It is suitable
+      for many long-run macroeconomic models of the energy transition. The
+      results show that carbon taxes alone have limited power early in the
+      transition. Technology and public infrastructure steer the
+      transition, even when dirty and clean energy act as complements.
     links:
       - label: "Draft available on request"
         url: ""
