@@ -14,7 +14,8 @@ I am a macroeconomist fascinated by one question: *how can economies decarbonize
 - **Technology and policy** — how fiscal policy and innovation intertwine
 - **Fiscal policy and public debt sustainability** — financing the clean energy transition when debt is high and population is ageing
 - **Structural macroeconomic modelling** — DSGE, OLG and HANK models built for policy analysis
-- **Panel econometrics**  
+- **Panel econometrics**
 
-##
+
+
 Read more about my work on the [Research page](research.html).
