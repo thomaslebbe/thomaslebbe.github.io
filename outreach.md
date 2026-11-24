@@ -1,20 +1,13 @@
 ---
 layout: page
-title: Outreach & Engagement
 permalink: /outreach.html
-description: >-
-  Outreach and engagement by Thomas Lebbe: economics podcast, faculty board
-  service, and volunteering.
+title: Outreach & Engagement
+description: "Outreach and engagement by Thomas Lebbe: economics podcast,
+  faculty board service, and volunteering."
 ---
+I hosted a podcast for the economics department of Ghent University, we brought policy-focused research to a broad audience. The aim was twofold, explaining ongoing research, and also linking ongoing research to societal questions. 
 
-I host a podcast for the economics department of Ghent University,
-translating policy-focused economics research into an accessible format
-for a broad audience.
+I am part of the department council and was twice elected to the faculty board. As a representative I advocated for better support for PhD students with little or no funding.
 
-I was twice elected to the faculty board, where I advocated better
-support for PhD students with little or no funding.
-
-For fifteen years I volunteered in Bruges with
-[Oranje vzw](https://www.oranje.be), an organisation that works toward an
-open and inclusive society for people with disabilities. I still care
-deeply about this cause.
+In a more distant past, I volunteered in Bruges for [Oranje vzw](https://www.oranje.be), an organisation that works toward an  
+open and inclusive society for people with disabilities. I still care deeply about this cause.
