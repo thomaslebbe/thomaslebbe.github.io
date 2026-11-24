@@ -2,21 +2,32 @@
 # section: jmp | published | working | progress
 # Within a section, papers appear in file order — keep newest first.
 papers:
-  - title: "The Energy Transition in Long-Run Macroeconomics"
+  - title: >-
+      Deciphering the Drivers of the Clean Energy Share: A Knife-Edge Model
+      of Clean Energy in the USA
     authors: ""
     year: "2026"
     section: jmp
     abstract: >-
-      How do fossil fuel prices interact with clean energy innovation to
-      drive the energy transition? I build a neoclassical growth model of
-      the United States in which clean technology grows through knowledge
-      spillovers from installed clean capital, supported by public
-      infrastructure. The model determines the whole set of fossil fuel
-      prices and clean innovation rates that form a knife edge. On this
-      knife edge the clean energy share is stable. Away from it, the model
-      shows how the system moves toward a new equilibrium. This explains
-      both the long plateaus and the discrete shifts in the observed clean
-      energy share.
+      Clean energy shares in OECD countries follow a growth pattern that is
+      quite peculiar. Periods of growth in clean energy are followed by
+      periods of stagnation, and seemingly out of nowhere the clean share
+      starts increasing. Existing knowledge points to prices and innovation
+      as key drivers, with some putting more emphasis on one specific
+      driver. This paper integrates both drivers to form a theoretical
+      model that can explain the share of clean energy. The underlying
+      model is a knife-edge model of unbalanced growth. The knife-edge is
+      the organising result of the paper: it is what lets a single model
+      produce both year-long plateaus and discrete shifts in the clean
+      energy share. My main contribution is an explicit, tractable
+      theoretical framework for modelling technology in the clean energy
+      sector, suitable for long-run macroeconomic models. The results of
+      the paper are suitable for policymakers, as interactions between
+      carbon prices and government investments indicate a staged approach.
+      Consistent with Lebbe and Heylen (2026), the results indicate that
+      carbon taxes alone have limited power in the early stages of the
+      energy transition, while technology and public infrastructure steer
+      the transition, even when dirty and clean energy act as complements.
     links:
       - label: "Draft available on request"
         url: ""
