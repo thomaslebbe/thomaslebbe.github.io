@@ -61,6 +61,7 @@ p.bio { margin-bottom: 0.9rem; }
 .paper .title { font-weight: bold; }
 .paper .meta { color: var(--muted); font-size: 0.92rem; font-style: italic; }
 .paper .desc { font-size: 0.97rem; margin-top: 0.15rem; }
+.paper .desc p + p { margin-top: 0.65rem; }
 .paper .links { font-size: 0.9rem; margin-top: 0.2rem; }
 .paper summary { cursor: pointer; }
 .paper summary::marker { color: var(--muted); }
